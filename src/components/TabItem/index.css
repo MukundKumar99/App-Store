@@ -1,0 +1,31 @@
+.tab-list {
+  width: 60px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .tab-list {
+    width: 100px;
+  }
+}
+.tab-button {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  color: inherit;
+}
+@media screen and (min-width: 768px) {
+  .tab-button {
+    font-size: 20px;
+  }
+}
+.selected {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+}
+.not-selected {
+  border-bottom: 1px solid #dfe2e5;
+  color: #7b8794;
+}
